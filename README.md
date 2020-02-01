@@ -12,9 +12,11 @@ Example query:
 This search would return restaurants (in JSON format) which contain a word sushi and are closer than 3km to the point [60.17045, 24.93147].
 
 ## Running the project
-* Navigate to the root folder of this project. For example, if it is copied inside a folder called backend, the current working directory should be backend.
-* Enter the command npm install
-* Then enter the command npm start. There*  should be a console log saying "Servering running on port [port#]"
+#### Before the project can be run, the system running it should have NodeJs installed
+* Launch Terminal or GitBash or similar environment
+* Navigate to the root folder consisting of all the files and subfolders of this project such that the current working directory should be the project's root folder.
+* Enter the command npm install to install the dependencie(s) used
+* Then enter the command npm start. There  should be a console log saying "Server running on port [port#]"
 * Open a web browser and navigate to localhost:[port#]/restaurants/search?q=[]&lat=[]&lon=[]. The [] should be replaced by the desired parameters. Note: The default port is defined to be 8080 unless the running system has a PORT environment variable predefined.
 * If the query parameters satisfy the backend logics, restaurants with their respective properties would be returned. For instance, the example query mentioned above would return 9 restaurants.
 
