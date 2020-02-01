@@ -18,7 +18,7 @@ This search would return restaurants (in JSON format) which contain a word sushi
 * Enter the command npm install to install the dependencie(s) used
 * Then enter the command npm start. There  should be a console log saying "Server running on port [port#]"
 * Open a web browser and navigate to localhost:[port#]/restaurants/search?q=[]&lat=[]&lon=[]. The [] should be replaced by the desired parameters. Note: The default port is defined to be 8080 unless the running system has a PORT environment variable predefined.
-* If the query parameters satisfy the backend logics, restaurants with their respective properties would be returned. For instance, the example query mentioned above would return 9 restaurants.
+* If the query parameters satisfy the backend logics, restaurants with their respective properties would be returned. For instance, the example query mentioned above would return 9 restaurants that are nearer than 3 kilometers from the customer's location and the restaurants' description/name/tags includes the query string 'sushi'.
 
 ## Dependencies used
 * fs from Nodejs
