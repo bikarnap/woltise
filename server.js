@@ -5,7 +5,7 @@ const express = require('express');
 const processQueryResults = require('./source/processQueryResults');
 
 const app = express(); 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080; //default port assigned to be 8080
 
 const fileUrl = 'restaurants.json';
 
